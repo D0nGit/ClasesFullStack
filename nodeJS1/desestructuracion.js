@@ -41,6 +41,13 @@ const perfil = {
     salario: '100'
 }
 
+const perfil2 = {
+    nombre: 'Donovanss',
+    apellido: 'Cortazar',
+    correo: 'don@correo',
+    salario: '10ss0'
+}
+
 const imprimePerfil = ({ nombre, salario }) => {
     console.log(nombre, +" " + salario);
 }
